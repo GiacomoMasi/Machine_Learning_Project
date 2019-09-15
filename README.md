@@ -10,7 +10,7 @@ The algorithm was tested over three different datasets:
   2) Iris dataset: dataset with 3 classes, taken from the UCI repository
   3) Seed dataset: dataset with 3 classes, taken from the UCI repository
   
-'''
+```
 Iris Dataset : https://archive.ics.uci.edu/ml/datasets/Iris
 Seed Dataset: https://archive.ics.uci.edu/ml/datasets/seeds
-'''
+```

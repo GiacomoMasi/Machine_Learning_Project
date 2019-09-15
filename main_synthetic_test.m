@@ -41,7 +41,7 @@ scatter(mu(:,1),mu(:,2),50,'rX');
     numClass_EM = 4;
     iter_array(1, numClass_EM) = numClass_EM;
     [EM_parameters] = set_EM_parameters(numClass_EM, dimension, n, points);
-    EM_parameters.mu
+    EM_parameters.mu = [2 5; 6 2; 4 4; 1 3];
 
     [EM_parameters, points_probability, likelihood] = EM_algorithm(EM_parameters, n, points, numClass_EM, dimension);
  

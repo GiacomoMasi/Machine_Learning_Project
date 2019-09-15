@@ -16,9 +16,11 @@ dimension = size(seedInputs,2);
     numClass_EM = 3;
     iter_array(1, numClass_EM) = numClass_EM;
     [EM_parameters] = set_EM_parameters(numClass_EM, dimension, n, seedInputs);
+%     EM_parameters.mu = [3 5 6 1 2 7 3; 5 3 4 6 1 2 7 ; 4 1 2 3 7 6 8 ];
+EM_parameters.mu = [1113.2401903908829 0.850629163133639 5.22109010580071 2.85735336092425 4.63594477642440 5.09263027013522;14.5343499189691 14.3990113910544 0.880142104469669 5.54656923538158 3.26742859116647 2.75717531400783 5.14408382290613;18.5050145716010 16.2045469519124 0.884606667850262 6.16968276806704 3.70060498158660 3.60612511493577 6.03065633531776]
 
 
-   [EM_parameters, points_probability, likelihood] = EM_algorithm(EM_parameters, n, seedInputs, numClass_EM, dimension);
+    [EM_parameters, points_probability, likelihood] = EM_algorithm(EM_parameters, n, seedInputs, numClass_EM, dimension);
 
  
 

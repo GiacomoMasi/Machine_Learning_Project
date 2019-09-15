@@ -25,6 +25,7 @@ end
     iter_array(1, numClass_EM) = numClass_EM;
     [EM_parameters] = set_EM_parameters(numClass_EM, dimension, n, irisInputs);
     EM_parameters.mu = [2 2 3 4; 1 4 3 3; 3 3 2 1];
+%     EM
 
     [EM_parameters, points_probability, likelihood] = EM_algorithm(EM_parameters, n, irisInputs, numClass_EM, dimension);
     EM_parameters.mu

@@ -14,6 +14,8 @@ The algorithm was tested over three different datasets:
 Iris Dataset : https://archive.ics.uci.edu/ml/datasets/Iris
 Seed Dataset: https://archive.ics.uci.edu/ml/datasets/seeds
 ```
+The seed dataset is stored in the variable seed_dataset.mat
+
 ### Run Project
 
 ## Run only EM algorithm
